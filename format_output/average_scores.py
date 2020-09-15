@@ -2,16 +2,16 @@
 Author: Aidan Shannon
 Program: average_scores.py
 
-program that takes multiple inputs and averages scores
-to format and return an output
+program that takes multiple inputs of scores
+and averages scores to format and return an output
 """
 
 
 def average():
-    score1 = int(input("Enter your first grade: "))
-    score2 = int(input("Enter your second grade: "))
-    score3 = int(input("Enter your third grade: "))
-    return (score1 + score2 + score3) / 3
+    scr1 = int(input("Enter your first grade: "))
+    scr2 = int(input("Enter your second grade: "))
+    scr3 = int(input("Enter your third grade: "))
+    return (scr1 + scr2 + scr3) / 3
 
 
 if __name__ == '__main__':
